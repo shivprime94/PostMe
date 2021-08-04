@@ -1,7 +1,7 @@
 import React from 'react'
 const Dashboard = () => {
   return (
-    <>
+    <React.Fragment>
       <h1>My Posts</h1>
       <div className='Inputdiv'>
         <input
@@ -22,7 +22,7 @@ const Dashboard = () => {
       <div class="container">
       
       </div>
-    </>
+    <React.Fragment/>
   )
 }
 export default Dashboard

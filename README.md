@@ -1,6 +1,6 @@
 ## Backend Repo
 
-link : [Corridor-Backend](https://github.com/chirag828049/Corridor-backend)
+Link :[PostMe-Backend](https://github.com/shivprime/PostMe-backend)
 
 
 

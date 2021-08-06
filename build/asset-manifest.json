@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PostMe/static/css/main.b85861f1.chunk.css",
+    "main.js": "/PostMe/static/js/main.7c71ea5b.chunk.js",
+    "main.js.map": "/PostMe/static/js/main.7c71ea5b.chunk.js.map",
+    "runtime-main.js": "/PostMe/static/js/runtime-main.1567a20c.js",
+    "runtime-main.js.map": "/PostMe/static/js/runtime-main.1567a20c.js.map",
+    "static/css/2.bd9a6a05.chunk.css": "/PostMe/static/css/2.bd9a6a05.chunk.css",
+    "static/js/2.d0f1ca03.chunk.js": "/PostMe/static/js/2.d0f1ca03.chunk.js",
+    "static/js/2.d0f1ca03.chunk.js.map": "/PostMe/static/js/2.d0f1ca03.chunk.js.map",
+    "static/js/3.5fe14559.chunk.js": "/PostMe/static/js/3.5fe14559.chunk.js",
+    "static/js/3.5fe14559.chunk.js.map": "/PostMe/static/js/3.5fe14559.chunk.js.map",
+    "index.html": "/PostMe/index.html",
+    "static/css/2.bd9a6a05.chunk.css.map": "/PostMe/static/css/2.bd9a6a05.chunk.css.map",
+    "static/css/main.b85861f1.chunk.css.map": "/PostMe/static/css/main.b85861f1.chunk.css.map",
+    "static/js/2.d0f1ca03.chunk.js.LICENSE.txt": "/PostMe/static/js/2.d0f1ca03.chunk.js.LICENSE.txt",
+    "static/media/corridorName.63f07832.png": "/PostMe/static/media/corridorName.63f07832.png",
+    "static/media/loginBanner.acff9e14.png": "/PostMe/static/media/loginBanner.acff9e14.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1567a20c.js",
+    "static/css/2.bd9a6a05.chunk.css",
+    "static/js/2.d0f1ca03.chunk.js",
+    "static/css/main.b85861f1.chunk.css",
+    "static/js/main.7c71ea5b.chunk.js"
+  ]
+}

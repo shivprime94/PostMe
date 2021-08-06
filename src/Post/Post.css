@@ -1,0 +1,115 @@
+.post-div {
+    background-color: #c4c4c4;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-div {
+    display: flex;
+    align-items: center;
+    padding: .4rem 0;
+}
+
+.author-pic {
+    width: 3rem;
+    padding: 0 0 0 1rem;
+}
+
+.author-name {
+    font-size: 1rem;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+.edit-btn-div {
+    padding: 1.5rem 1rem;
+}
+
+.edit-btn {
+    width: 1.5rem;
+}
+
+.edit-btn:hover {
+    animation: shake .4s cubic-bezier(.36,.07,.19,.97) both;
+    backface-visibility: hidden;
+}
+
+.post-text {
+    font-size: 1.5rem;
+    
+    padding: 2rem 2.5rem;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 1rem 1.5rem;
+    color: #373534;
+}
+
+.like-dislike-div {
+    display: flex;
+}
+
+.like-div {
+    transform: scaleX(-1) translateY(-.5rem);
+}
+
+.like-counter {
+    font-size: 1rem;
+    color: #373534;
+    font-weight: bold;
+    padding: 0 .5rem;
+    transform: translateY(-2px);
+}
+
+.delete-div {
+    padding: 0 1rem;
+}
+
+.delete-btn:hover {
+    animation: shake .4s cubic-bezier(.36,.07,.19,.97) both;
+    backface-visibility: hidden;
+}
+
+.green-txt {
+    color: #01937C;
+}
+
+.red-txt {
+    color: #962D2D;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0) scale(100%); }
+    15% { transform: rotate(5deg) scale(103%); }
+    30% { transform: rotate(-5deg) scale(106%); }
+    45% { transform: rotate(4deg) scale(109%); }
+    60% { transform: rotate(-4deg) scale(112%); }
+    75% { transform: rotate(2deg) scale(115%); }
+    85% { transform: rotate(-2deg) scale(116%); }
+    92% { transform: rotate(1deg) scale(118%); }
+    100% { transform: rotate(0) scale(120%); }
+}
+
+@media only screen and (max-width: 600px) {
+    .post-div {
+        width: 70%;
+    }
+
+    .post-text {
+        font-size: 1.2rem;
+    }
+
+    .author-div {
+        padding: .6rem 0;
+    }
+}
